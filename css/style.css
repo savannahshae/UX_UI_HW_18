@@ -7,7 +7,11 @@
     padding:1%;
     text-align:center;
 }
-nav{
+.navstates{
+    color: #000000;
+}
+
+nav{ 
     width:73%;
     padding:1%;
 }
@@ -29,9 +33,40 @@ li{
 }
 footer{
     background-color: #373738;
-
+}
 .footer-item{
     display:inline-block;
     vertical-align:top;
     font-family: "";
 }
+.flex-container{
+    display:flex;
+    flex-direction:row;
+}
+.skill-name{
+    width:33%;
+}
+.skill-name img{
+    width:50px;
+    height:auto;
+}
+.workGrid{
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-areas: "project-1 project-2";
+}
+.project-1{
+    grid-area:project-1;
+}
+.project-2{
+    grid-area:project-2;
+}
+@media only screen and (max-width: 600px) {
+    .workGrid{
+        grid-template-columns:100%;
+        grid-template-areas: 
+        "project-1" 
+        "project-2";
+      width:100%;
+    } 
+  }

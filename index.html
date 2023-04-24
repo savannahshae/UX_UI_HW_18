@@ -3,6 +3,7 @@
     <head>
         <title></title>
         <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </head>
     <body>
 <header class="navigation">
@@ -10,10 +11,10 @@
     <div class="inline-block logo">
         <img class="logo" src="images/logo.png">
         <ul>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Work</li>
-            <li>Contact</li>
+            <li class="navstates">About</li>
+            <li class="navstates">Skills</li>
+            <li class="navstates">Work</li>
+            <li class="navstates">Contact</li>
         </ul>
     </div>
     </header>
@@ -32,5 +33,47 @@
         <li>Contact</li>
     </ul>
 </footer>
-    </body>
- </html>
+ <!--My UX Skills Section Coded Using CSS Flex-->
+ <section class="mySkills">
+    <h1>My UX Skills</h1>
+    <div class="flex-container">
+        <div class="skill-name">
+            <img src="images/Skill 1 PNG.png">
+            <h3>Wireframing</h3>
+            <p>I like wireframes.</p>
+        </div>
+        <div class="skill-name">
+            <img src="images/Skill 2 PNG.png">
+            <h3>Storyboarding</h3>
+            <p>I like storyboarding.</p>
+        </div>
+        <div class="skill-name">
+            <img src="images/Skill 3 PNG.png">
+            <h3>Prototyping</h3>
+            <p>I like prototyping.</p>
+        </div>
+ </section>
+ <!-- My Work Section Constructed using CSS Grid -->
+ <section class="myWork">
+    <h1>My Work</h1>
+    <div class="workGrid">
+        <h3>View All Projects</h3>
+        <div>
+            <img src="images/P1 PNG.png">
+        </div>
+        <div class="project-1">
+            <h4> Project 1</h4>
+            <p> Project 1 rules.</p>
+            <button>View More</button>
+        </div>
+        <div class="project-2">
+            <h4> Project 2</h4>
+            <p> Project 2 rules.</p>
+            <button>View More</button>
+        </div>
+</div>
+ </section>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+ <script src="./Java Script/index.js"></script>
+</body>
+</html>
