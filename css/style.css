@@ -1,8 +1,11 @@
 .inline-block{
     display: inline-block;
     vertical-align:top;
+    font-family: "Bungee Shade";
 }
-body {background-color: rgb(255, 206, 101);}
+body{
+    background-color: darksalmon;
+}
 .logo{
     width:23%;
     padding:1%;
@@ -11,7 +14,6 @@ body {background-color: rgb(255, 206, 101);}
 .navstates{
     color: #000000;
 }
-
 nav{ 
     width:73%;
     padding:1%;
@@ -38,7 +40,6 @@ footer{
 .footer-item{
     display:inline-block;
     vertical-align:top;
-    font-family: "";
 }
 .flex-container{
     display:flex;
